@@ -1,24 +1,24 @@
 class Fwdctl < Formula
   desc "Forward Networks skills CLI: ask questions of a Forward network"
   homepage "https://github.com/forwardnetworks/fwdctl"
-  version "0.5.179"
+  version "0.5.180"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/forwardnetworks/fwdctl/releases/download/v0.5.179/fwdctl_v0.5.179_darwin_arm64.tar.gz"
-      sha256 "eed288430c95015fcc28325bf447d9490e0b26b6e3fe6bc8cacff8aa27343288"
+      url "https://github.com/forwardnetworks/fwdctl/releases/download/v0.5.180/fwdctl_v0.5.180_darwin_arm64.tar.gz"
+      sha256 "600017ac9614c026b5e1889cdec8d828d5a4750f714ec97260b6a16a50031273"
     end
     on_intel do
-      url "https://github.com/forwardnetworks/fwdctl/releases/download/v0.5.179/fwdctl_v0.5.179_darwin_amd64.tar.gz"
-      sha256 "a2ea18134ed50a946b0689e35f3c7a0da9d6ab2567c3454e7378c83d9a5df37e"
+      url "https://github.com/forwardnetworks/fwdctl/releases/download/v0.5.180/fwdctl_v0.5.180_darwin_amd64.tar.gz"
+      sha256 "b4815dba4d6bdf1ac83cd4d718a4c7e175bf1c6bb0c510849514f1a2ec764067"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/forwardnetworks/fwdctl/releases/download/v0.5.179/fwdctl_v0.5.179_linux_amd64.tar.gz"
-      sha256 "3ae3ee21a0ac3ccca3e53b72085539e10ab3e63fa339e16ddcbbeb2a801c502d"
+      url "https://github.com/forwardnetworks/fwdctl/releases/download/v0.5.180/fwdctl_v0.5.180_linux_amd64.tar.gz"
+      sha256 "2a3124052245904cbf7c9b21b67276d0be444a4910b166380d2bdb5664818d23"
     end
   end
 
